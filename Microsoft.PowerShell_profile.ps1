@@ -41,4 +41,4 @@ set-alias ssh plink.exe
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
 # Import my volume library
-Import-Module -Name ~/scripts/Set-SpeakerVolume.psm1 -WarningAction SilentlyContinue
+#Import-Module -Name ~/scripts/Set-SpeakerVolume.psm1 -WarningAction SilentlyContinue
