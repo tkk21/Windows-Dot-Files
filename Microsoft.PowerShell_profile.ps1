@@ -36,9 +36,11 @@ set-alias ll ls
 set-alias l ls
 set-alias scp pscp.exe
 set-alias ssh plink.exe
+set-alias python py.exe
+set-alias touch New-Item
 
 # Bash-like tab completion
-Set-PSReadlineKeyHandler -Key Tab -Function Complete
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 # Import my volume library
 #Import-Module -Name ~/scripts/Set-SpeakerVolume.psm1 -WarningAction SilentlyContinue
