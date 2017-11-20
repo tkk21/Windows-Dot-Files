@@ -20,8 +20,6 @@ Function Elevate-Powershell
 #Set-ExecutionPolicy RemoteSigned
 
 # custom variables
-$Torrent = "H:/Torrent"
-$MEGA = "H:/MEGA/download"
 $Hosts = "C:\Windows\System32\drivers\etc\hosts"
 
 # custom Aliases
